@@ -1,14 +1,14 @@
 # Node-koa
 关于node中的koa项目结构部署 （客户端-node-服务端）
 
-项目结构
+一 项目结构
 app 启动的入口文件
 common  公共
 config  node层的客户端路径   node层服务端路径
 dist 单页面的入口
 script  脚本 用于执行app.js文件
 
-npm块
+二 npm块
 1 路由 @koa/router
 
 2 koa-json  对url的解析  当不是get请求时,其他请求时，数据封装在body中
@@ -28,3 +28,5 @@ npm块
 9 koa2-cors 跨域处理
 
 10 nodemon自动重启server
+
+三 路由映射
