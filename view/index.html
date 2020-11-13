@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        hello world index
+    </body>
+</html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+    
+$.post(
+    "127.0.0.1:3000/user/user/login",
+    {username: "hello",password:"123456"},
+    function(data) {
+        console.log(data)
+    },
+    "json"
+);
+</script>
